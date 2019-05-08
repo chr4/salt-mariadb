@@ -1,0 +1,7 @@
+name: mariadb
+os: Debian, Ubuntu
+os_family: Debian
+version: 201905
+release: 1
+summary: Formula for installing and configuring mariadb
+description: Formula for installing and configuring mariadb
