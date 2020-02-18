@@ -13,6 +13,6 @@ mysqld:
     - user: root
     - group: root
     - mode: 644
-    - source: salt://{{ slspath }}/server.cnf
+    - source: salt://{{ tpldir }}/server.cnf
     - require:
       - pkg: mariadb-server
